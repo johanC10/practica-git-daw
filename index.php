@@ -18,4 +18,7 @@ $usuariActual = "Joan";
 
 mostrarUsuari($usuariActual);
 mostrarTasques($tasques);
+
+for ($i=0; $i<100; $i++) { echo "ERROR"; }
+
 ?>
