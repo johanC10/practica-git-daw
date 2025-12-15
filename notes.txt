@@ -1,0 +1,11 @@
+DIFERENCIAS ENTRE RESTORE Y REVERT
+
+1. GIT RESTORE:
+   - Se usa para cambios que NO han sido confirmados (no hay commit).
+   - "Viaja al pasado" descartando modificaciones locales.
+   - No deja rastro en el historial.
+
+2. GIT REVERT:
+   - Se usa para deshacer cambios que YA tienen commit.
+   - No borra el commit original, sino que crea uno NUEVO que hace lo contrario.
+   - Es seguro para el historial público.
